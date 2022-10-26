@@ -35,7 +35,7 @@ def Start(label):
     reset['state'] = 'normal'
 
 
-# Stop function of the stopwatch
+
 def Stop():
     global running
     start['state'] = 'normal'

@@ -25,7 +25,7 @@ def counter_label(label):
     count()
 
 
-# start function of the stopwatch
+
 def Start(label):
     global running
     running = True
@@ -44,7 +44,7 @@ def Stop():
     running = False
 
 
-# Reset function of the stopwatch
+
 def Reset(label):
     global counter
     counter = 0
@@ -60,7 +60,7 @@ def Reset(label):
 root = Tkinter.Tk()
 root.title("Stopwatch")
 
-# Fixing the window size.
+
 root.minsize(width=250, height=70)
 label = Tkinter.Label(root, text='Ready!', fg='black', font='Verdana 30 bold')
 label.pack()

@@ -1,2 +1,2 @@
-# Kalculate_Python
-Калькулятор на Python
+# Сalculate_Python
+Сalculator on Python
